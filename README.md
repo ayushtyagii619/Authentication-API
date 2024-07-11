@@ -1,6 +1,6 @@
 # Django REST API Authentication
 
-This project is a Django REST API for authentication, providing a secure and scalable way to manage user registration, login, and logout functionalities. The API follows REST principles and can be easily integrated into any frontend application.
+This project is a Django REST API for authentication, providing a secure and scalable way to manage user registration, login, and password reset functionalities. The API follows REST principles and can be easily integrated into any frontend application.
 
 ## Features
 
