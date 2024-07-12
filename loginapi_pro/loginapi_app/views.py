@@ -9,6 +9,7 @@ from rest_framework.permissions import IsAuthenticated
 def get_tokens_for_user(user):
     refresh = RefreshToken.for_user(user)
 
+#This project done by Ayush Tyagi.
     return {
         'refresh': str(refresh),
         'access': str(refresh.access_token),
