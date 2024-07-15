@@ -10,7 +10,7 @@ def get_tokens_for_user(user):
     refresh = RefreshToken.for_user(user)
 
 #This project done by Ayush Tyagi.
-#contact:ayush@gmail.com
+#contact:ayush952877@gmail.com
     return {
         'refresh': str(refresh),
         'access': str(refresh.access_token),
